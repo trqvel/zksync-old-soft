@@ -17,7 +17,7 @@ RETRY = 5 # кол-во попыток при ошибках / фейлах
 TG_BOT_SEND = True # True / False. нужно ли отправлять результаты в тг бота
 TG_TOKEN = '123:AA'
 TG_IDS = [
-    357630468,
+    ,
     # 1684654564,
     # 4556456,
 ]
@@ -80,7 +80,7 @@ def value_okx():
 
     account = 'account_1' # аккаунт okx берется из data/data.py
 
-    SUB_ACC     = True
+    SUB_ACC = True
 
     return symbol, amount_from, amount_to, account, SUB_ACC
 
